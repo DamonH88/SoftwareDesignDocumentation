@@ -1,2 +1,2 @@
 # SoftwareDesignDocumentation
-repository of files from CSS6301
+repository of files from CSC6301
