@@ -62,10 +62,13 @@ public class SortStack {
         int number = 0;
         String strInput;
         boolean valid = false;
+        // Keep looking until valid input is given.
         while(valid == false){
+            // Prompt the user.
             System.out.println(promptMsg);
+            // Grab input from keyboard.
             strInput = in.nextLine();
-            
+            // Try to convert String to int.
             try{
                 number = Integer.parseInt(strInput);
                 valid = true;
@@ -103,6 +106,7 @@ public class SortStack {
             }
         }
         while(num > 0) {
+            // Test case 1: readInteger.
             int intInput;
             String promptMsg1 = "Please enter the integer for element #" + num;
             String errorMsg1 = "Invalid entry.";
